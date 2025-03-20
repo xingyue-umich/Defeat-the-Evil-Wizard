@@ -118,7 +118,7 @@ class Paladin(Character):
         action = input("Which ability do you want to use? (1/2): ")
         
         if action == "1":
-            # Holy Strike
+            # Holy Strike increases attack power by 30
             damage = self.attack_power + 30
             opponent.health -= damage
             print(f"\n{self.name} increase the attack of their damage to {damage}")
